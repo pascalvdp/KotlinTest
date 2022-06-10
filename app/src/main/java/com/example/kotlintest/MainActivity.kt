@@ -108,7 +108,7 @@ class MainActivity : AppCompatActivity() {
         var test = arrayOf("Peugeot","Renault","Ford","Mazda")
         var cars = test + "Bmw"
         if("Ford" in cars){
-            println("found1")
+            println("found2")
         }else{
             println("not found!!!!!!")
         }
