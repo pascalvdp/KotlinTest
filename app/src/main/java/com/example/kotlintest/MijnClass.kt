@@ -6,7 +6,6 @@ class MijnClass(var id: Int=400): MijnParentClass(id) { //id = primaire construc
     init {
         //this.id=id
     }
-
     //super(id) => enkel in gebruik als er geen primaire constructor is
     constructor(name: String, id: Int) : this(name, id, "passw") {
     //this.id = id
