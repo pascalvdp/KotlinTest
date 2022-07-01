@@ -3,7 +3,6 @@ package com.example.kotlintest
 class MijnClass(var id: Int=400): MijnParentClass(id) { //id = primaire constructor
 
     //var id: Int = 400
-
     init {
         //this.id=id
     }
